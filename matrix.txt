@@ -1,0 +1,85 @@
+What is matrix?
+
+matrix is a rectangular array or table of numbers, symbols, or expressions, arranged in rows and columns, which is used to represent a mathematical object or a property of such an object.
+
+There are many types of matrices available we will discuss some of them here:
+
+1. Horizontal Matrix
+The matrix that contains more columns than the number of rows is called a horizontal matrix. 
+
+Example:
+int row = 2;
+int col = 3;
+int a[row][col];
+
+Here a is a horizontal matrix as it has more columns than rows.
+
+
+
+2. Vertical Matrix
+The matrix that contains more rows than the number of columns is called a vertical matrix.
+
+Example:
+int row = 3;
+int col = 2;
+int b[row][col];
+
+Here b is a vertical matrix as it has more rows than columns.
+
+
+
+3. Square Matrix
+
+The matrix that contains the same number of rows as that of columns is called a square matrix.
+
+Example:
+int row = 3;
+int col = 3;
+int c[row][col];
+c is a matrix with order 3 x 3. c is a square matrix as the number of rows = the number of columns.
+
+
+
+4. Diagonal Matrix
+
+In a diagonal matrix, when we say diagonal, we mean principal diagonal.
+
+A matrix with zero elements except the diagonal elements is called a diagonal matrix.
+
+There is some condition that a matrix should follow to be called a diagonal matrix, and these are:
+
+* The given matrix should be a square matrix, i.e., the number of rows should be the same as the number of columns.
+* All the elements except the elements from the principal diagonal must be zero.
+
+
+
+5. Scalar Matrix
+
+It is an extension of a diagonal matrix. A matrix that obeys all the conditions of the diagonal matrix and all the elements along the principal diagonal are equal is called a scalar matrix. 
+
+
+6. Identity or Unit Matrix
+
+Unit matrix is also an extension of the diagonal matrix. A matrix that follows all the diagonal matrix conditions and has all the principal diagonal elements 1 is called an identity or unit matrix.
+
+
+/* We can have some conclusions regarding the unit matrix.
+
+All identity matrices are scalar matrices.
+All scalar matrices are diagonal matrices.
+All diagonal matrices are square matrices. */
+
+
+Two matrices are said to be equal when they follow some conditions.
+
+* The number of rows of both the matrices should be identical.
+* The number of columns of both the matrices should be identical.
+* All the elements corresponding to the same positions must be equal.
+
+When two matrices that satisfy all of the above conditions are called equal matrices.
+
+7. Triangular Matrix
+
+When a square matrix has all the elements above or below the principal diagonal as zero, the rest have values known as the triangular matrix.
+
+
